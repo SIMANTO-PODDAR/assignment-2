@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+  font-size: 16px;
+}
+
 .inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -22,7 +26,7 @@
 
 .btn:hover{
   background: linear-gradient(47.64deg, rgb(146, 247, 63),rgba(233, 8, 57, 0.904),rgb(17, 0, 248));
-  transform: scale(1.2);
+  transform: scale(1.1);
   outline: 2px solid rgba(92, 34, 168, 0.856);
 }
 
@@ -40,7 +44,6 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid rgba(159, 128, 199, 0.856);
 }
 
 .page ul{
@@ -65,10 +68,63 @@ header{
   display: none;
 }
 
+/* ------------------------------------------------ hero section */
 
+.hero-section-color{
+  background-color: rgba(26, 11, 46, 1);
+  border-top: 1px solid rgba(159, 128, 199, 0.377);
+}
 
+.hero-section{
+  background-image: url(./img/hero-bg.png);
+  background-repeat: no-repeat;
+  height: 750px;
+  max-width: 1600px;
+  font-size: 1vw;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0);
+  margin: 0 auto;
+  background-size: 100%;
+  align-items: center;
+  justify-items: center;
+  color: white;
+}
 
+.hero-circle{
+  width: 21.875em;
+  height: 21.875em;
+  border-radius: 50px;
+  background-image: url(./img/hero-circle.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 8.13em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-circle img{
+  height:10.9375em ;
+  width: 7.3125em;
+}
+.hero-section h2{
+  margin-top: 40px;
+  font-size: 60px;
+  font-weight: 800;
+}
 
+.hero-section p{
+  margin: 20px 0;
+  font-size: 17px;
+}
+.hero-btn{
+  display: flex;
+  gap: 15px;
+}
+.subscribe{
+  background: none;
+  border: 2px solid #00FF88;
+  color: #00FF88;
+}
 
 
 
