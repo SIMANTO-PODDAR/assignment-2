@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* --------------------------- common style */
+.btn{
+  color: white;
+  background: linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+  border: none;
+  padding: 12px 16px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background: linear-gradient(47.64deg, rgb(146, 247, 63),rgba(233, 8, 57, 0.904),rgb(17, 0, 248));
+  transform: scale(1.2);
+  outline: 2px solid rgba(92, 34, 168, 0.856);
+}
+
+
+/* --------------------------- specific style */
+/* ----------------------------------------------- header */
+header{
+  background-color: rgba(26, 11, 46, 1);;
+}
+
+.nav-bar{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(159, 128, 199, 0.856);
+}
+
+.page ul{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  list-style-type: none;
+
+}
+
+.page li{
+  list-style-type: none;
+}
+
+.page ul li a{
+  text-decoration: none;
+  color: white;
+
+}
+
+.nav-menu{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------- media queries for small */
+
+@media screen and (max-width: 576px) {
+  .nav-bar{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.page ul , .nav-btn{
+  display: none;
+}
+
+.nav-menu{
+  display: flex;
+  color: aliceblue;
+}
+
+
+}
