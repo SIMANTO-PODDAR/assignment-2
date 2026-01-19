@@ -28,8 +28,19 @@ html{
   background: linear-gradient(47.64deg, rgb(146, 247, 63),rgba(233, 8, 57, 0.904),rgb(17, 0, 248));
   transform: scale(1.1);
   outline: 2px solid rgba(92, 34, 168, 0.856);
+  cursor: pointer;
 }
 
+.hov-outline:hover{
+  outline: 2px solid rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.hov-outline-2:hover{
+  outline: 2px solid rgb(107, 15, 182);
+  cursor: pointer;
+}
 
 /* --------------------------- specific style */
 /* ----------------------------------------------- header */
@@ -61,7 +72,7 @@ header{
 .page ul li a{
   text-decoration: none;
   color: white;
-
+  padding: 5px;
 }
 
 .nav-menu{
@@ -169,8 +180,6 @@ header{
   height: 95px;
   width: 150px;
 }
-
-
 
 /* ------------------------------------------------ main section */
 
@@ -408,6 +417,7 @@ footer{
   margin-top: 3em;
   font-size: 1em;
   font-weight: 400;
+  padding: 5px;
 }
 
 
