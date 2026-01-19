@@ -111,6 +111,41 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+#new {
+  position: absolute;
+  top: 5%;
+  right: -10px;
+  background-color:#00FF88;
+  color: black;
+  padding: 6px 16px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: 0 0 15px rgba(2, 206, 111, 0.753);
+  animation: new-animation 2s infinite;
+  z-index: 999;
+}
+
+
+@keyframes new-animation {
+
+ 0%{
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(0, 255, 136, 0.7);
+    }
+
+  70% {
+    transform: scale(1.25);
+    box-shadow: 0 0 0 10px rgba(0, 255, 136, 0);
+    }
+
+    100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(0, 255, 136, 0);
+    }
 }
 
 .hero-circle img{
@@ -520,5 +555,10 @@ footer{
   justify-content: center;
 }
 
+#new {
+  padding: 4px 10px;
+  right: 0px;
+
+}
 
 }
