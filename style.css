@@ -90,21 +90,21 @@ header{
 }
 
 .hero-circle{
-  width: 20.875em;
-  height: 20.875em;
+  width: 20em;
+  height: 20em;
   border-radius: 50px;
   background-image: url(./img/hero-circle.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  margin-top: 8em;
+  margin-top: 7.5em;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .hero-circle img{
-  height:10.9em ;
-  width: 7.3em;
+  height:10em ;
+  width: 7em;
 }
 .hero-section h2{
   margin-top: 40px;
@@ -297,6 +297,10 @@ header{
 }
 
 /* --------------------------------- host-section */
+.host-section-all{
+  padding-bottom: 120px;
+
+}
 #host-titel{
   color: white;
   text-align: center;
@@ -348,6 +352,53 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+/* -------------------------------------------------- footer */
+footer{
+  background-color:  #220D3C;
+}
+
+.footer-all{
+  max-width: 1600px;
+  margin: 0 auto;
+  font-size: 1vw;
+}
+
+.footer-bg{
+  background-image: url(./img/footer-bg.png);
+  background-repeat: no-repeat;
+  min-height: 25.75em;
+  background-size: 100%;
+}
+
+.foot-con{
+  padding-top: 7.5em;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  color: white;
+  
+}
+
+.foot-logo{
+  background-image: url(./img/TechWaveLogo.png);
+  width: 13.9em;
+  height: 2.2em;
+  justify-self:center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.foot-icons,#foot-icons{
+  display: flex;
+}
+
+.foot-con p{
+  margin-top: 3em;
+  font-size: 1em;
+  font-weight: 400;
 }
 
 
@@ -421,7 +472,26 @@ header{
   padding: 10px;
 }
 
+.foot-logo{
+  width: 200px;
+  height: 32px;
+}
+
 #icons{
+  justify-content: center;
+}
+
+.foot-con p{
+  margin-top: 7px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.foot-icons{
+  flex-direction: column;
+}
+
+#foot-icons{
   justify-content: center;
 }
 
