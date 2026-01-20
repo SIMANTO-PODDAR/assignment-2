@@ -417,12 +417,12 @@ footer{
   max-width: 1600px;
   margin: 0 auto;
   font-size: 1vw;
+  padding-bottom: 5px;
 }
 
 .footer-bg{
   background-image: url(./img/footer-bg.png);
   background-repeat: no-repeat;
-  min-height: 25.75em;
   background-size: 100%;
 }
 
@@ -479,6 +479,10 @@ footer{
 
 .hero-section{
   height: 450px;
+}
+
+#new {
+  font-size: 10px;
 }
 
 .about-section{
@@ -541,6 +545,10 @@ footer{
   justify-content: center;
 }
 
+.foot-con {
+  padding-top: 5.5em;
+}
+
 .foot-con p{
   margin-top: 7px;
   font-size: 12px;
@@ -559,6 +567,64 @@ footer{
   padding: 4px 10px;
   right: 0px;
 
+}
+
+.footer-all{
+  padding-bottom: 0px;
+}
+
+}
+
+/* --------------------------- media queries for small */
+@media screen and (min-width:577px) and (max-width:991px) {
+
+
+  
+}
+
+
+/* ----------------------- for better user experience */
+
+@media screen and ( min-width:1900px ) {
+
+.hero-circle{
+  width: 350px;
+  height: 350px;
+  margin-top: 150px;
+}
+
+.hero-circle img{
+  height: 160px ;
+  width: 110px;
+}
+
+.choose-section h1{
+  font-size: 50px;
+}
+
+.choose-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 1vw;
+  padding: 5em 0;
+  color: white;
+}
+.episodes-section{
+  padding: 3em 0;
+}
+
+.foot-con {
+ padding-top: 145px;
+}
+
+.foot-logo{
+  width: 170px;
+  height: 50px;
+}
+
+.foot-con p{
+  margin-top: 55px;
+  font-size: 20px;
 }
 
 }
